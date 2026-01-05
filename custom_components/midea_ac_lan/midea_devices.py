@@ -1622,14 +1622,14 @@ MIDEA_DEVICES: dict[int, dict[str, dict[str, Any] | str]] = {
                 "icon": "mdi:heat-wave",
             },
             CDAttributes.top_elec_heat: {
-                "type": Platform.SENSOR,
+                "type": Platform.BINARY_SENSOR,
                 "translation_key": "top_elec_heat",
                 "name": "Top Electric Heat",
                 "icon": "mdi:heat-wave",
                 "device_class": BinarySensorDeviceClass.RUNNING,
             },
             CDAttributes.bottom_elec_heat: {
-                "type": Platform.SENSOR,
+                "type": Platform.BINARY_SENSOR,
                 "translation_key": "bottom_elec_heat",
                 "name": "Bottom Electric Heat",
                 "icon": "mdi:heat-wave",
@@ -1693,21 +1693,18 @@ MIDEA_DEVICES: dict[int, dict[str, dict[str, Any] | str]] = {
                 "translation_key": "multi_terminal",
                 "name": "Multi Terminal",
                 "icon": "mdi:tablet-cellphone",
-                "device_class": BinarySensorDeviceClass.CONNECTIVITY,
             },
             CDAttributes.mute_effect: {
                 "type": Platform.BINARY_SENSOR,
                 "translation_key": "mute_effect",
                 "name": "Mute Effect",
                 "icon": "mdi:volume-off",
-                "device_class": BinarySensorDeviceClass.RUNNING,
             },
             CDAttributes.mute_status: {
                 "type": Platform.BINARY_SENSOR,
                 "translation_key": "mute_status",
                 "name": "Mute Status",
                 "icon": "mdi:volume-mute",
-                "device_class": BinarySensorDeviceClass.RUNNING,
             },
             CDAttributes.error_code: {
                 "type": Platform.SENSOR,
