@@ -1615,6 +1615,12 @@ MIDEA_DEVICES: dict[int, dict[str, dict[str, Any] | str]] = {
                 "name": "Water Level",
                 "icon": "mdi:cup-water",
             },
+            CDAttributes.disinfect: {
+                "type": Platform.SWITCH,
+                "translation_key": "disinfect",
+                "name": "Disinfect",
+                "icon": "mdi:bacteria",
+            },
             CDAttributes.elec_heat: {
                 "type": Platform.SENSOR,
                 "translation_key": "elec_heat",

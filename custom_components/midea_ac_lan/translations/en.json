@@ -138,6 +138,12 @@
       "middle_compartment_preheating": {
         "name": "Middle Compartment Preheating"
       },
+      "top_elec_heat": {
+        "name": "Top Electric Heat"
+      },
+      "bottom_elec_heat": {
+        "name": "Bottom Electric Heat"
+      },
       "mute_effect": {
         "name": "Mute Effect"
       },
@@ -583,12 +589,6 @@
       },
       "elec_heat": {
         "name": "Electric Heat"
-      },
-      "top_elec_heat": {
-        "name": "Top Electric Heat"
-      },
-      "bottom_elec_heat": {
-        "name": "Bottom Electric Heat"
       },
       "water_pump": {
         "name": "Water Pump"
