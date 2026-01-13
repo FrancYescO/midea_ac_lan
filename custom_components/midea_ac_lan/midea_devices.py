@@ -1692,7 +1692,6 @@ MIDEA_DEVICES: dict[int, dict[str, dict[str, Any] | str]] = {
                 "translation_key": "smart_grid",
                 "name": "Smart Grid",
                 "icon": "mdi:transmission-tower",
-                "device_class": BinarySensorDeviceClass.CONNECTIVITY,
             },
             CDAttributes.multi_terminal: {
                 "type": Platform.BINARY_SENSOR,
